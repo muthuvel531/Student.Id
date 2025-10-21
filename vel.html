@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Id</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+<body>
+</head>
+
+<body>
+    
+    <!----mutuhvel(header)-->
+    <div class="muthuvel" id="bharth">
+    <header class="header 1">
+        <div class="home">
+        <h3>Dashboard</h3>
+        </div>
+        
+        <div class="icon">
+        <i class="fa-solid fa-bars" id="menu-icon" onclick="document.location='home.html'" ></i>
+        </div>
+        <div class="hair">
+             <i class="fa-solid fa-xmark" id="sa"onclick="document.location='home.html'"></i>
+            <ul>
+                <li onclick="document.location='home.html'">Home</li>
+                <br>
+                <li onclick="document.location='attendance.html'">Attendance</li>
+                <br>
+                <li onclick="document.location='prise.html'">Prise</li>
+                <br>
+                <li onclick="document.location='online.html'">Online</li>
+                <br>
+                <li onclick="document.location='profile.html'">profile</li>
+                <br>
+                <li onclick="document.location='project.html'">project</li>
+                <br>
+               <li onclick="document.location='index.html'">Logout</li>
+            </ul>
+        </div>
+    </header>
+    
+    
+    <!--------img----------->
+    <nav class="img" id="hair">
+        <div class="image">
+        <img src="IMG_20250926_212711.jpg" alt="">
+        </div>
+                <div class="muthu">
+            <p>24uca531</p>
+            <p>II-Year/Bca-sf</p>
+            <p>Muthuvel</p>
+        </div>
+    </nav>
+    <!----------icon2----------------------->
+   
+    <div class="icon2">
+        <div class="todel">
+             <i class="fa-regular fa-file"></i>
+             <h4 class="h4" > Today Day order</h4><button id="ropo">B13</button>
+        </div>
+       <hr>
+       
+        <div class="attendance" >
+            
+            <h4>My attendance Percentage<i class="fa-solid fa-angle-right" id="sathivel"></i></h4>
+        </div>
+    </div>
+    <!--------------tableheader---------------------->
+    <div class="tableheader" id="mama">
+    <div class="tbody">
+        <table>
+          
+            <tr >
+        
+        <td onclick="document.location='online.html'" class="oo"><i class="fa-solid fa-calculator"></i>onlinepaidlog</td>
+        </tr>
+        <tr>
+        <td  onclick="document.location='index.html'"><i class="fa-solid fa-clipboard"></i>feedback</td>
+        <td onclick="document.location='hair.html'"><i class="fa-solid fa-paste"></i>Halltike</td>
+        <td onclick="document.location='bharath.html'"><i class="fa-solid fa-calendar-days"></i>MyResults</td>
+        </tr>
+        <tr>
+        <td onclick="document.location='profile.html'"><i class="fa-regular fa-user"></i>Myprofile</td>
+        <td onclick="document.location='project.html'"><i class="fa-solid fa-file-export"></i>Project</td>
+        </tr>
+        
+</table>
+    </div>
+</div>
+<!----------------------view------------->
+<div class="view" id="laks" >
+    <div class="open">
+        <h4>Upcomingtimetable</h4> <h4 class="uma">C13</h4>
+        <br>
+   
+</div>
+<!----------xavir-------------------------->
+
+
+ </body> 
+</html>
+<style>
+     
+ *{
+        padding:0;
+        margin:0;
+
+        font-family:'Poppins', sans-serif;
+ }
+ .hair,ul,li{
+    color:black;
+    display: inline-block;
+    position: relative;
+ }
+ #sa{
+    color:#fff;
+    position: relative;
+    left: 180px;
+    top:20px
+ }
+ #sa:hover{
+    color:red;
+ }
+ 
+ .hair{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 250px;
+    top: 10px;
+    background: linear-gradient(rgb(0, 0, 0));
+    margin-left: -19px;
+    color: #fff;
+    border-style: none;
+    border-radius: 20px;
+    border: solid;
+ }
+ ul{
+    position: relative;
+    left: 25px;
+    top:20px;
+   
+    
+ }
+ .oo{
+    
+    position: relative;
+    left: 220px;
+ }
+ li{
+    position: relative;
+  color: #fff;
+     display: flex;
+    flex-direction: column;
+ }
+ li:hover{
+    color:red;
+ }
+ 
+
+ 
+/*--------muthuvel(header)------*/
+    .header{
+        color:#fff;
+        background-color: red;
+        font-size: 20px;
+        display: inline;
+        height: 15px;
+        width:358px;
+        padding: 20px;
+         display: fixed;
+    }
+    .header1{
+        margin-top: -35px;
+    }
+    .header,.home,h3{
+        display: inline-block;
+        
+    }
+    .icon{
+        display: inline-block;
+        margin-left: 170px;
+        font-size: 10px;
+        margin-top: -20px;
+        color:#ffff;
+    }
+    #menu-icon{
+        color:#ffff;
+    }
+    /*-----------------img---------------*/
+    
+    .img{
+        border:solid;
+        border-color: #fff;
+       box-shadow: 1px 1px 1px rgba(7, 7, 7, 7.959);
+       background: linear-gradient(rgba(0, 0, 0, 0.125),rgba(0, 0, 1, 0.056));
+       font-size: 15px;
+       padding:10px;
+       width:350px;
+       border-width: 0;
+       height: 80px;
+       border-radius: 5px;
+       margin-top: 10px;
+       margin-left: 13px;
+       
+       
+    }
+    .image{
+        display: inline-block;
+    }
+    .image,img{
+        width: 90px;
+        height:100px;
+       margin-left:-5px;
+       margin-top: -5px;
+        margin-right: -10px;
+       
+       
+    }
+    .muthu,p{
+        margin-left: 65px;
+        margin-top: -40px;
+        padding:10;
+    }
+    p{
+       
+        margin: 9px;
+        margin-left: 45px;
+        margin-top: -42px;
+    }
+    /*---------------icon2------------*/
+    .icon2{
+        margin-top: 18px;
+        margin-left: 7px;
+        border: solid;
+       
+        background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 1, 0));
+        border-radius: 5px;
+        width: 370px;
+        border-color: rgba(0, 0, 0, 0.115);
+        border-width: 2px;
+        background-color: #ffffff00;
+        box-shadow: 1px rgba(0, 0, 0, 0.959);
+        
+    }
+    
+    #sathivel{
+        font-size: 20px;
+        color:rgb(0, 0, 0);
+        margin-left: 130px;
+    
+    }
+    
+    .todel,h4{
+        display: inline-block;
+        font-size: 14px;
+    }
+    .todel{
+        padding:5px;
+    }
+    .todel,.fa-file{
+        padding:8px;
+        font-size: 18px;
+    }
+    .fa-file{
+        color:rgba(0, 0, 0, 0.584);
+    }
+    
+    .attendance{
+        padding: 5px;
+    }
+    .attendance,.fa-calendar{
+        padding:7px;
+        font-size: 20px;
+    }
+    .fa-calendar{
+        color:rgba(0, 0, 0, 0.584);
+    }
+    #ropo{
+          margin-left: 130px;
+        border-radius:3px;
+        background-color: red;
+        color:white;
+       padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    /*------------tableheader--------------*/
+    
+    .tableheader{
+        margin-top: 20px;
+        color:black;
+        height: 150px;
+        width:380px;
+        margin-left: 10px;
+    
+       
+    }
+    .text{
+        margin-left: -245px;
+        padding: 3px;
+        border-radius: 8px;
+    }
+    
+    .tbody,i{
+        padding:2px;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    table{
+        margin-left:-5px;
+    }
+    .tbody{
+        padding-top:10px;
+        border: solid;
+        border-color:hwb(0 100% 0%);
+       padding: 10px;
+       background-color: rgb(243, 243, 243);
+       z-index: 2;
+       border-radius: 20px;
+    }
+    
+    td{
+        border: solid;
+       padding: 7px;
+       border-width: 100px;
+
+       border: 5px; 
+       border-color:black;
+       width:600px;
+       margin-top: 25px;
+       background: linear-gradient(rgba(0, 0, 0, 0.11));
+       ;
+       position: relative;
+       font-size: 15px;
+       padding:15px;
+       border-radius: 5PX;
+    }
+    td:hover{
+        transform: scale(1.01);
+    }
+    
+    tr,td,i{
+        position: relative;
+       
+    }
+    i{
+        font-size: 30px;
+        color:#ffffff00
+        
+        
+    }
+    
+    
+    
+    /*-----------xavier--------------------*/
+    
+    .xavir{
+        margin-top: 13px;
+        text-align: center;
+        background-color: red;
+        color:#fff;
+        height: 20px;
+        width:400px;
+        font-size: 18px;
+        border-radius: 12px 12px 12px;
+    }
+
+     
+
+
+</style>

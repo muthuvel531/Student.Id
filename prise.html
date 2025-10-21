@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header2">
+        <i class="fa-solid fa-left-long" onclick="document.location='home.html'"></i>
+       <h4>fees</h4>
+        </div>
+          </header>
+          <div class="fees">
+            <div class="boy" onclick="document.location='prise2.html'">
+            <h3>SEM-III</h3>
+            <h5 >Rs.1100.00<i class="fa-solid fa-angle-right" id="sathivel"></i></h5>
+            </div>
+          </div>
+</body>
+</html>
+<style>
+     @media (max-width: 600px) {
+     *{
+     font-family:'Poppins', sans-serif;
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+    }
+    .header2,i,h4{
+        display:inline-block;
+    }
+    header{
+        background-color: red;
+        color:black;
+        height: 55px;
+        width: 410px;
+    }
+    .fa-solid {
+        font-size:25px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color:#ffff;
+    }
+    h4{
+        font-size: 24px;
+        color:#ffff;
+        margin-left: 20px;
+    }
+    h3,h5{
+        display: inline-block;
+    }
+    .fees{
+        margin-top: 20px;
+        margin-left: 30px;
+        color:black;
+        width:320px;
+         box-shadow: 1px 1px 1px rgba(7, 7, 7, 7.959);
+      padding: 7px;
+        height: 66px;
+        margin-bottom: 20px;
+         background-color:rgba(226, 216, 216, 0.659); 
+         border-radius: 5px;
+    }
+    h3{
+        margin-left: 10px;
+        position: relative;
+      top: 10px;
+    }
+    h5{
+        margin-left: 170px;
+        margin-top: -30px;
+        position: relative;
+        top: -10px;
+    }
+    .boy{
+        border: solid;
+        border-color: #ffffff00;
+        border-width: 1px;
+        border-radius: 14px;
+      margin-bottom: 5px;
+        background-color: rgba(208, 196, 196, 0.637); ;
+    }
+    .boy:hover{
+         transform: scale(1.01);
+    }
+    #sathivel{
+        color:black;
+        font-size:  20px;
+       
+    }
+}
+</style>

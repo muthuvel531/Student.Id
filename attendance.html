@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+    <!---------header---------->
+    <header>
+        <div class="header2">
+        <i class="fa-solid fa-left-long" onclick="document.location='home.html'"></i>
+       <h4>Attendance</h4>
+        </div>
+          </header>
+       <!---------sunday------------>
+        <div class="sunday">
+            <h3>Today Attendance</h3>
+            <hr>
+            <br>
+            <h5>Sunday</h5>
+        </div>
+        <div class="day">
+           <input type="text" list=data  class="text"placeholder="My Absentdays">
+            
+           <datalist id="data">
+          
+            <option value="Day Hours"><th>Day  Hours</th></option>
+            <hr>
+             <option value="26-06-2025 1,2,3,4,5"><td>26-06-2025 1,2,3,4,5</td></option>
+             <hr>
+              <option value="30-06-2025 1,2,3,4,5"><td>30-06-2025 1,2,3,4,5</td></option>
+              <hr>
+               <option value="04-07-2025 1"><td>04-07-2025 1</td></option>
+               <hr>
+                <option value="07-07-2025 1,2,3,4,5"><td>07-07-2025 1,2,3,4,5</td></option>
+                <hr>
+                 <option value="10-07-2025 4"><td>10-07-2025 4</td></option>
+                 <hr>
+                  <option value="25-07-2025 4">25-07-2025 4</option>
+                  <hr>
+                   
+           </datalist>
+        </div>
+        <div class="day1">
+           <input type="text" list=dataa  class="text"placeholder="My Absentday">
+            
+           <datalist id="dataa">
+          
+            <option value="Day Hours"><th>Day  Hours</th></option>
+            <hr>
+             <option value="26-06-2025 1,2,3,4,5"><td>26-06-2025 1,2,3,4,5</td></option>
+             <hr>
+              <option value="30-06-2025 1,2,3,4,5"><td>30-06-2025 1,2,3,4,5</td></option>
+              <hr>
+                <option value="07-07-2025 1,2,3,4,5"><td>07-07-2025 1,2,3,4,5</td></option>
+                <hr>
+                 
+                   
+           </datalist>
+        </div>
+
+  
+    
+</body>
+</html>
+<style>
+     @media (max-width: 600px) {
+    /*----------header--------------*/
+    *{
+     font-family:'Poppins', sans-serif;
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+    }
+    .header2,i,h4{
+        display:inline-block;
+    }
+    header{
+        background-color: red;
+        color:black;
+        height: 55px;
+        width: 410px;
+    }
+    .fa-solid {
+        font-size:24px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color:#ffff;
+    }
+    h4{
+        font-size:25px;
+        color:#ffff;
+        margin-left: 20px;
+    }
+    /*------------------sunday------------------*/
+    .sunday{
+        margin-top: 20px;
+        margin-left: 15px;
+        background-color:rgba(226, 216, 216, 0.403); 
+        border: solid;
+        border-color: none;
+        border-radius: 10px;
+        border-width: 0px;
+        padding: 5px;
+        width: 370px;
+    }
+    h3{
+        margin-left: 15px;
+        padding:3px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    h5{
+        color:red;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .day{
+        margin-left: 20px;
+        margin-top: 10px;
+        padding: 5px;
+       
+    }
+    input{
+       font-size: 16px;
+      border-color: none;
+      color:#fff;
+      text-decoration: none;
+      border: solid;
+     padding-left: 20px;
+      border-radius: 5px;
+        width:365px;
+        margin-left: -10px;
+        height: 50px;
+        background-color: rgba(226, 216, 216, 0.403);
+    }
+    input::placeholder{
+        color:black;
+    }
+    #sathivel{
+        color:black;
+        margin-left: -10px;
+       font-size: 20px;
+    }
+    .day1{
+        margin-left: 21px;
+        margin-top: 10px;
+        padding: 5px;
+       
+    }
+}
+        
+</style>

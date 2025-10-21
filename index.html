@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+        <header>
+        <div class="header2">
+       <h4>Student logon</h4>
+        </div>
+          </header>
+        <div class="logn">
+            <h1>Logon</h1>
+            <table>
+            
+            <tr>
+                <td>Student ID</td>
+              <td><input type="text" placeholder="Student ID" class="open" id="a"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" placeholder="Enter tha Password" class="open" id="b"></td>
+            </tr>
+       </table>
+         <button onclick="compareNumbers()">Submit</button>
+        </div>
+
+
+<script>
+    function compareNumbers() {
+      var box1 =  document.getElementById("a");
+      var box2 =  document.getElementById("b");
+      totalvalue = 531
+      
+      
+      box1value = Number(box1.value)
+      box2value  = Number(box2.value)
+      result = box2value==totalvalue
+      
+      
+      if(result) 
+          
+      {
+          result = window.location.href = "home.html";
+        } else {
+          result = window.location.href = "index.html";
+            }   
+    }
+
+
+         </script>
+         
+</body>
+</html>
+<style>
+        *{
+     font-family:'Poppins', sans-serif;
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style-type: none;
+    }
+    .header2,i,h4{
+        display:inline-block;
+    }
+    header{
+        background-color: red;
+        color:black;
+        height: 55px;
+        width: 410px;
+        box-sizing: 10px;
+    }
+    #sathivel {
+        font-size:25px;
+        margin-top: 10px;
+        margin-left: 15px;
+        color:#ffff;
+    }
+    h4{
+        font-size: 20px;
+        color:#ffff;
+        margin-left: 10px;
+       position: relative;
+       top:15px;
+       left: 5px;
+    }
+    .logn{
+        margin-top: 50px;
+        margin-left: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.125),rgba(0, 0, 1, 0.056));
+        box-shadow: 1px 1px 1px rgba(7, 7, 7, 7.959);;
+        width:330px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    h1{
+        text-align: center;
+        padding-bottom: 25px;
+        font-size: 35px;
+        border-radius: 10px;
+        padding-top: 25px;
+    }
+    table{
+       margin-left: 20px;
+       
+    }
+    td{
+        padding: 8px;
+    }
+    input{
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .open{
+        width: 180px;
+    }
+    button{
+        margin-left: 100px;
+        margin-top: 25px;
+        padding-left: 50px;
+         box-shadow: 1px 1px 1px rgba(7, 7, 7, 7.959);
+        padding-right: 50px;
+        border-style: none;
+        color: #ffff;
+        border-radius: 7px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        background: rgba(93, 3, 21, 0.701);
+    }
+    button:hover{
+        transform: scale(1.07);
+    }
+    td{
+        font-size: 15px;
+
+    }
+    
+  
+</style>
